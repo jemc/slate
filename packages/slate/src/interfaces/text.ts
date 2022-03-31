@@ -114,7 +114,8 @@ export const Text: TextInterface = {
         o += length
 
         // If the range encompases the entire leaf, add the range.
-        if (start.offset <= offset && end.offset >= o) {
+        console.log('jemc fork')
+        if (start.offset <= offset && end.offset >= o && length > 0) {
           Object.assign(leaf, rest)
           next.push(leaf)
           continue
