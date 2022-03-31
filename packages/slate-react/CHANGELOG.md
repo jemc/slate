@@ -1,5 +1,11 @@
 # slate-react
 
+## 0.76.1
+
+### Patch Changes
+
+- [#4919](https://github.com/ianstormtaylor/slate/pull/4919) [`7de7cdcf`](https://github.com/ianstormtaylor/slate/commit/7de7cdcf5625d44dbb2dc9faf52675374e51499f) Thanks [@BitPhinix](https://github.com/BitPhinix)! - Restore user selection after applying beforeinput with target range
+
 ## 0.76.0
 
 ### Minor Changes
